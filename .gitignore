@@ -1,0 +1,15 @@
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+daten/*
+!daten/.gitkeep
+
+fig/*
+!fig/.gitkeep
+
+excel/*
+!excel/.gitkeep
+
+pdf/*
+!pdf/.gitkeep
