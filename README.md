@@ -7,10 +7,9 @@ Daten laden, prüfen, aufbereiten, auswerten und visualisieren – Schritt für 
 Das ist didaktisch so gewollt und besonders für einen ersten Zugang sinnvoll. Eine spätere Kapselung einzelner Teile in Funktionen ist möglich.
 
 ---
-
 ## Direktstart mit Binder – kann etwas dauern
 
-[![launch binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/DEIN-GITHUB-NAME/DEIN-REPOSITORY/HEAD?labpath=notebooks%2Fwetterdaten_niederschlag.ipynb)
+[![launch binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/RVeh/dwd-niederschlag/HEAD?labpath=notebooks%2Fwetterdaten_niederschlag.ipynb)
 
 Nach dem Start im Menü **Run → Run All Cells** ausführen.
 
