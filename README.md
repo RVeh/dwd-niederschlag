@@ -27,6 +27,17 @@ Zurzeit besteht das Projekt aus einem zentralen Notebook mit dokumentierter Schr
 - optionalem Export von Ergebnissen
 
 ---
+# Geogebra im Mathematikunterricht 
+
+## GeoGebra
+
+Die GeoGebra-Simulationen können über die
+[gemeinsame Auswahlseite](https://rveh.github.io/dwd-niederschlag/)
+direkt im Browser geöffnet werden.
+
+## Materialien
+Im Ordner `Materialien` befinden sich PDF-Dateien zu einzelnen Inhalten.
+
 
 ## Dateistruktur
 
