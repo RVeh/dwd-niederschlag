@@ -4,7 +4,6 @@ Ein interaktives Notebook-Projekt zur Analyse von Niederschlagsdaten des DWD mit
 
 Der Aufbau ist bewusst **linear und dokumentiert**:  
 Daten laden, prüfen, aufbereiten, auswerten und visualisieren – Schritt für Schritt in einem Notebook.  
-Das ist didaktisch so gewollt und besonders für einen ersten Zugang sinnvoll. Eine spätere Kapselung einzelner Teile in Funktionen ist möglich.
 
 ---
 ## Direktstart mit Binder – kann etwas dauern
@@ -17,7 +16,7 @@ Nach dem Start im Menü **Run → Run All Cells** ausführen.
 
 ## Inhalt
 
-Zurzeit besteht das Projekt aus einem zentralen Notebook mit dokumentierter Schrittfolge, unter anderem zu:
+Das Projekt besteht aus einem zentralen Notebook mit dokumentierter Schrittfolge, unter anderem zu:
 
 - Laden von Wetterdaten
 - Entpacken und Einlesen
@@ -31,12 +30,12 @@ Zurzeit besteht das Projekt aus einem zentralen Notebook mit dokumentierter Schr
 
 ## GeoGebra
 
-Die GeoGebra-Simulationen können über die
+Die GeoGebra-Simulation kann über die
 [gemeinsame Auswahlseite](https://rveh.github.io/dwd-niederschlag/)
 direkt im Browser geöffnet werden.
 
 ## Materialien
-Im Ordner `Materialien` befinden sich PDF-Dateien zu einzelnen Inhalten.
+Im Ordner `pdf` befinden sich PDF-Dateien zu einzelnen Inhalten.
 
 
 ## Dateistruktur
