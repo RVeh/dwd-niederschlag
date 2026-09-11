@@ -14,7 +14,6 @@ Enthalten sind vorbereitete Excel-Dateien, eine GeoGebra-Simulation, ein erläut
 | Rekorde und Anstiege durch zufällige Neuanordnung erkunden | [GeoGebra-Simulation im Browser](https://rveh.github.io/dwd-niederschlag/) |
 | Datenzugang, Aufbereitung und Auswertung nachvollziehen oder eine andere Station wählen | [Python-Notebook mit Binder starten](https://mybinder.org/v2/gh/RVeh/dwd-niederschlag/main?labpath=notebooks%2FDWD_Niederschlag_Ebene1.ipynb) |
 | Das Notebook ohne Ausführung lesen | [Notebook auf GitHub](notebooks/DWD_Niederschlag_Ebene1.ipynb) · [PDF-Fassung](pdf/DWD_Niederschlag_Ebene1.pdf) |
-| Den begleitenden Beitrag lesen | [Artikel als PDF](pdf/dwd-niederschlag.pdf) |
 
 ## Mit Excel beginnen
 
