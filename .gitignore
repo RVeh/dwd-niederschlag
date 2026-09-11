@@ -10,3 +10,7 @@ excel/*
 
 pdf/*
 !pdf/.gitkeep
+
+quellen/*
+!quellen/.gitkeep
+
