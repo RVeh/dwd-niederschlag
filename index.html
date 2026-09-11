@@ -8,7 +8,7 @@
     content="width=device-width, initial-scale=1"
   >
 
-  <title>DWD-Niederschlaege</title>
+  <title>Anstiege und Rekorde – DWD-Niederschlag</title>
 
   <script src="https://www.geogebra.org/apps/deployggb.js"></script>
 
@@ -94,6 +94,12 @@
 
   <main>
     <h2 id="dateititel"></h2>
+    <p style="max-width: 1200px; margin: 0 auto 12px;">
+      Das Laden von GeoGebra kann einen Moment dauern.
+      <a id="dateidownload" href="geogebra/RekordeAnstiegeSimulation.ggb" download>GeoGebra-Datei herunterladen</a>
+      · <a href="https://github.com/RVeh/dwd-niederschlag">Zu allen Materialien</a>
+    </p>
+    <noscript>Bitte aktivieren Sie JavaScript, um die Simulation im Browser zu nutzen.</noscript>
 
     <div class="ggb-container">
       <div id="ggb-element"></div>
@@ -104,7 +110,7 @@
     /*
       Hier werden die verfügbaren GeoGebra-Dateien eingetragen.
 
-      Der Schlüssel links, zum Beispiel "analysis", wird nur
+      Der Schlüssel links, zum Beispiel "AnstiegeRekorde", wird nur
       für die Internetadresse verwendet.
 
       "titel" erscheint auf der Schaltfläche.
@@ -114,17 +120,16 @@
 
    const dateien = {
      AnstiegeRekorde: {
-        titel: "AnstiegeRekorde",
+        titel: "Anstiege und Rekorde",
         pfad: "geogebra/RekordeAnstiegeSimulation.ggb"
-      },
-      
+      }
+    };
+
     /*
       Gewählte Datei aus der Internetadresse auslesen,
       zum Beispiel:
 
-      ?datei=analysis
-      ?datei=funktionsbestimmung
-      ?datei=lupe
+      ?datei=AnstiegeRekorde
     */
 
     const urlParameter =
@@ -137,7 +142,7 @@
       Object.keys(dateien)[0];
 
     const aktiverSchluessel =
-      gewuenschteDatei in dateien
+      Object.prototype.hasOwnProperty.call(dateien, gewuenschteDatei)
         ? gewuenschteDatei
         : ersteDatei;
 
@@ -150,12 +155,14 @@
     */
 
     document.title =
-      aktiveDatei.titel + " – GeoGebra-Fortbildung";
+      aktiveDatei.titel + " – DWD-Niederschlag";
 
     document
       .getElementById("dateititel")
       .textContent = aktiveDatei.titel;
 
+
+    document.getElementById("dateidownload").href = aktiveDatei.pfad;
 
     /*
       Auswahlleiste automatisch erzeugen.
@@ -195,7 +202,7 @@
     const ggbParameter = {
       appName: "classic",
 
-      filename: aktiveDatei.pfad,
+      filename: new URL(aktiveDatei.pfad, document.baseURI).href,
 
       width: 1200,
       height: 800,
