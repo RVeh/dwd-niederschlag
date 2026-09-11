@@ -5,7 +5,7 @@ Ein interaktives Notebook-Projekt zur Analyse von Niederschlagsdaten des DWD mit
 Der Aufbau ist bewusst **linear und dokumentiert**:  
 Daten laden, prüfen, aufbereiten, auswerten und visualisieren – Schritt für Schritt in einem Notebook.  
 
-Das Repository ergänzt den Artikel **Große Realdatensätze im Mathematikunterricht - vom Datenzugang zur Modellierung**. Es enthält eine GeoGebra-Datei, ein Python-Notebook begleitende PDF-Dokumente, Grafiken und zusätliches Material zu den Quellen (DWD).
+Das Repository ergänzt den Artikel **Große Realdatensätze im Mathematikunterricht - vom Datenzugang zur Modellierung** von Reimund Vehling. Es enthält eine GeoGebra-Datei, ein Python-Notebook begleitende PDF-Dokumente, Grafiken und zusätliches Material zu den Quellen (DWD).
 
 ---
 
