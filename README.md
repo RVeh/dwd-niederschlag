@@ -27,9 +27,9 @@ Zum Öffnen eine Datei auf GitHub auswählen und über die Download-Schaltfläch
 
 ## GeoGebra: Anstiege und Rekorde
 
-Die [GeoGebra-Simulation](https://rveh.github.io/dwd-niederschlag/) lässt sich direkt im Browser öffnen. Sie veranschaulicht die zufällige Neuanordnung von Niederschlagswerten und die Untersuchung von Anstiegen und Rekorden.
+Die [GeoGebra-Simulationen](https://rveh.github.io/dwd-niederschlag/) lassen sich direkt im Browser öffnen. Sie veranschaulichen die zufällige Neuanordnung von Niederschlagswerten und die Untersuchung von Anstiegen und Rekorden.
 
-Alternativ kann die [GeoGebra-Datei heruntergeladen](https://rveh.github.io/dwd-niederschlag/geogebra/RekordeAnstiegeSimulation.ggb) und in GeoGebra Classic geöffnet werden. Für die eingebettete Browseransicht werden eine Internetverbindung und aktiviertes JavaScript benötigt.
+Alternativ können die [GeoGebra-Dateien heruntergeladen](https://rveh.github.io/dwd-niederschlag/geogebra/) und in GeoGebra Classic geöffnet werden. Für die eingebettete Browseransicht werden eine Internetverbindung und aktiviertes JavaScript benötigt.
 
 ## Python-Notebook mit Binder ausführen
 
